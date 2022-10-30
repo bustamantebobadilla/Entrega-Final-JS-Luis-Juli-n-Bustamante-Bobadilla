@@ -1,0 +1,508 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: #031c3f;
+    font-size: 20px;
+  }
+  .navbar a:hover {
+    font-size: 25px;
+    width: 100%;
+  }
+  
+  .navbar-brand {
+    color: rgba(255, 187, 0, 0.932);
+    font-size: 25px;
+  }
+  
+  .marca:hover {
+    color: rgba(255, 187, 0, 0.932);
+    font-size: 30px;
+  }
+  
+  .lista {
+    color: white;
+  }
+  
+  .lista:hover {
+    color: rgba(255, 187, 0, 0.932);
+    transition-duration: 1s;
+  }
+  
+  .navbar-toggler {
+    color: rgba(255, 187, 0, 0.932);
+    background-color: rgba(255, 187, 0, 0.932);
+  }
+  
+  .body {
+    background-color: #032656;
+  }
+  
+  h1 {
+    padding-top: 50px;
+    color: #032656;
+  }
+  
+  .jumbotron {
+    background-image: url(./MEDIA/YOU_portada.jpg);
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 780px;
+    padding-left: 5%;
+  }
+  .jumbotron .p-home {
+    color: rgb(255, 255, 6);
+    font-size: 25px;
+    text-shadow: 0 0 50px black;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .section {
+    height: auto;
+    background-color: #032656;
+  }
+  
+  .nleft {
+    background-image: url(./MEDIA/YOU_servicios.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 50%;
+    padding-top: 10px;
+    margin-left: 5%;
+  }
+  
+  .maps-black {
+    background-color: rgba(255, 187, 0, 0.932);
+    border: solid #032656;
+    border-radius: 10%;
+    text-shadow: 0 1px #032656;
+    text-decoration-line: #032656;
+    font-size: 35px;
+    color: black;
+  }
+  
+  .maps-blue {
+    background-color: rgba(255, 187, 0, 0.932);
+    border: solid #032656;
+    border-radius: 10%;
+    text-shadow: 0 1px #032656;
+    text-decoration-line: #032656;
+    font-size: 30px;
+    color: blue;
+  }
+  
+  .maps-gray {
+    background-color: rgba(255, 187, 0, 0.932);
+    border: solid #032656;
+    border-radius: 10%;
+    text-shadow: 0 1px #032656;
+    text-decoration-line: #032656;
+    font-size: 25px;
+    color: gray;
+  }
+  
+  .maps-white {
+    background-color: rgba(255, 187, 0, 0.932);
+    border: solid #032656;
+    border-radius: 10%;
+    text-shadow: 0 1px #032656;
+    text-decoration-line: #032656;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .btn-group {
+    width: 40%;
+    padding-top: 10px;
+    height: auto;
+    padding-left: 2%;
+  }
+  
+  .btn-group:hover {
+    scale: 110%;
+    transition-duration: 2s;
+  }
+  
+  .nright {
+    width: 40%;
+    padding-left: 3%;
+  }
+  
+  .form-group label {
+    color: white;
+  }
+  
+  .pie {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #031c3f;
+    text-align: center;
+    height: auto;
+    font-size: 20px;
+    color: rgba(255, 187, 0, 0.932);
+    display: inline-block;
+  }
+  .pie img {
+    padding-top: 20px;
+  }
+  
+  .card {
+    background-color: #032656;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .card-text:hover {
+    translate: 10px;
+    color: rgba(255, 187, 0, 0.932);
+    transition-duration: 2s;
+  }
+  
+  .nleft-nosotros {
+    height: auto;
+  }
+  
+  .nleft-nosotros img:hover {
+    translate: 10px;
+    transition-duration: 2s;
+  }
+  
+  .nright-nosotros {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .nright-nosotros p:hover {
+    translate: 10px;
+    color: rgba(255, 187, 0, 0.932);
+    transition-duration: 2s;
+  }
+  
+  .contacto-nosotros {
+    padding-top: 100px;
+    width: 50%;
+  }
+  
+  .portada-metodo {
+    height: 500px;
+    background-image: url(./MEDIA/METODO\ .PNG);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .metodo-imagen {
+    display: block;
+    height: 50%;
+    width: 50%;
+    padding-left: 10%;
+  }
+  
+  .nright-nosotros p:hover {
+    translate: 10px;
+    color: rgba(255, 187, 0, 0.932);
+  }
+  
+  .servicios-portada {
+    width: 70%;
+    height: 600px;
+  }
+  
+  .div-servicios {
+    padding-top: 200px;
+    padding-left: 15%;
+    width: 70%;
+    font-size: 20px;
+  }
+  .div-servicios button {
+    width: 150px;
+    height: fit-content;
+    display: inline-block;
+    color: #032656;
+    border-radius: 10%;
+    background-color: rgba(255, 187, 0, 0.932);
+  }
+  
+  .div-servicios button:hover {
+    scale: 80%;
+    background-color: #032656;
+    color: rgba(255, 187, 0, 0.932);
+    border-color: rgba(255, 187, 0, 0.932);
+    transition-duration: 2s;s
+  }
+  
+  .nright-contacto {
+    font-size: 30px;
+    color: white;
+    height: 500px;
+  }
+  .nright-contacto img {
+    width: 90%;
+    height: 80%;
+  }
+  
+  .nright-contacto:hover {
+    translate: 10px;
+    color: rgba(255, 187, 0, 0.932);
+    transition-duration: 2s;
+  }
+  
+  .nright-contacto img:hover {
+    scale: 105%;
+    transition-duration: 2s;
+  }
+  
+  .agendar-parrafo {
+    font-size: 30px;
+    color: white;
+    position: center;
+  }
+  
+  .agendar-parrafo:hover {
+    color: rgba(255, 187, 0, 0.932);
+    transition-duration: 2s;
+  }
+  
+  .agendar {
+    height: 600px;
+  }
+  
+  .agendar img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .agendar-facebook {
+    width: 300px;
+    height: 60px;
+    padding-left: 30%;
+  }
+  
+  .agendar-facebook input:hover {
+    background-color: rgba(255, 187, 0, 0.932);
+    font-size: smaller;
+    scale: 80%;
+    transition-duration: 2s;
+  }
+  
+  .facebook-icon {
+    width: 200px;
+    height: 200px;
+    padding-top: 150px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .navbar {
+      font-size: 20px;
+    }
+    .navbar a:hover {
+      font-size: 25px;
+    }
+    .btn-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    .jumbotron {
+      height: 500px;
+    }
+    .nleft {
+      background-image: url(./MEDIA/YOU_servicios.png);
+      background-position: center;
+      background-size: 100%;
+      height: auto;
+      width: 50%;
+      padding-top: 50px;
+      margin-left: 5%;
+    }
+    .metodo-parrafos p {
+      font-size: 20px;
+    }
+    .metodo-parrafos img {
+      width: 200px;
+      height: 200px;
+    }
+    .div-servicios button {
+      padding-top: 50px;
+    }
+    .servicios-portada {
+      height: 400px;
+    }
+    .facebook-icon {
+      width: 100px;
+      height: 100px;
+      padding-top: 0;
+      padding: 10%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .navbar {
+      font-size: 15px;
+      display: grid;
+      grid-template-columns: max-content;
+      width: 100%;
+    }
+    .navbar a:hover {
+      font-size: 20px;
+    }
+    .btn-group {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .maps-black {
+      background-color: rgba(255, 187, 0, 0.932);
+      border: solid #032656;
+      border-radius: 10%;
+      text-shadow: 0 1px #032656;
+      text-decoration-line: #032656;
+      font-size: 20px;
+      color: black;
+    }
+    .maps-blue {
+      background-color: rgba(255, 187, 0, 0.932);
+      border: solid #032656;
+      border-radius: 10%;
+      text-shadow: 0 1px #032656;
+      text-decoration-line: #032656;
+      font-size: 19px;
+      color: blue;
+    }
+    .maps-gray {
+      background-color: rgba(255, 187, 0, 0.932);
+      border: solid #032656;
+      border-radius: 10%;
+      text-shadow: 0 1px #032656;
+      text-decoration-line: #032656;
+      font-size: 18px;
+      color: gray;
+    }
+    .maps-white {
+      background-color: rgba(255, 187, 0, 0.932);
+      border: solid #032656;
+      border-radius: 10%;
+      text-shadow: 0 1px #032656;
+      text-decoration-line: #032656;
+      font-size: 16px;
+      color: white;
+    }
+    .jumbotron {
+      height: 350px;
+    }
+    .nleft {
+      background-image: url(./MEDIA/YOU_servicios.png);
+      background-position: center;
+      background-size: 100%;
+      height: auto;
+      width: 50%;
+      padding-top: 30px;
+      margin-left: 5%;
+    }
+    .servicios-portada {
+      height: 250px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .navbar {
+      font-size: 15px;
+      padding-left: 0;
+      width: 100%;
+    }
+    .navbar a:hover {
+      font-size: 20px;
+    }
+    .btn-group {
+      display: inline;
+      position: absolute;
+      top: 800px;
+      left: 150px;
+    }
+    .maps-black {
+      background-color: rgba(255, 187, 0, 0.932);
+      border: solid #032656;
+      border-radius: 10%;
+      text-shadow: 0 1px #032656;
+      text-decoration-line: #032656;
+      font-size: 20px;
+      color: black;
+    }
+    .maps-blue {
+      background-color: rgba(255, 187, 0, 0.932);
+      border: solid #032656;
+      border-radius: 10%;
+      text-shadow: 0 1px #032656;
+      text-decoration-line: #032656;
+      font-size: 19px;
+      color: blue;
+    }
+    .maps-gray {
+      background-color: rgba(255, 187, 0, 0.932);
+      border: solid #032656;
+      border-radius: 10%;
+      text-shadow: 0 1px #032656;
+      text-decoration-line: #032656;
+      font-size: 18px;
+      color: gray;
+    }
+    .maps-white {
+      background-color: rgba(255, 187, 0, 0.932);
+      border: solid #032656;
+      border-radius: 10%;
+      text-shadow: 0 1px #032656;
+      text-decoration-line: #032656;
+      font-size: 16px;
+      color: white;
+    }
+    .jumbotron {
+      height: 350px;
+    }
+    .jumbotron h1 {
+      padding-top: 0;
+    }
+    .jumbotron p {
+      font-size: 15px;
+      padding-top: 0;
+    }
+    .nleft {
+      background-image: url(./MEDIA/YOU_servicios.png);
+      background-position: center;
+      background-size: 100%;
+      height: 350px;
+      width: 90%;
+      padding-top: 5px;
+      margin-left: 5%;
+      display: block;
+    }
+    .card p {
+      font-size: 20px;
+    }
+    .nleft-nosotros {
+      font-size: 20px;
+    }
+    .nright-nosotros {
+      font-size: 20px;
+    }
+  }
+  #servicioscatalogo{
+    color: rgba(255, 187, 0, 0.932);
+  }
+  .div-servicios{
+    color: white;
+  }
+  .div-carrito{
+    color:white;
+  }
+  .table{
+    color:white;
+  }

@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1, 
+        "nombre":"Clases Personalizadas",
+        "costo": 250,
+        "cantidad": 10
+    },
+
+    {
+        "id": 2, 
+        "nombre":"Regularización", 
+        "costo": 200,
+        "cantidad":5
+    },
+    {
+        "id": 3, 
+        "nombre":"Español para extranjeros", 
+        "costo": 250,
+        "cantidad": 7
+    },
+    {
+        "id": 4, 
+        "nombre":"Grupos de conversación", 
+        "costo": 200,
+        "cantidad": 13
+    }
+
+]
